@@ -81,8 +81,6 @@ public class AlertTests : BaseTest
     [Test]
     public async Task Alert_TriggerAPrompt_Cancel_ReturnCancelled()
     {
-
-
         Page.Dialog += (_, dialog) => 
         {
             dialog.DismissAsync();
@@ -95,5 +93,4 @@ public class AlertTests : BaseTest
 
         answerText.Should().Be("Answer: Cancelled");
     }
-
 }
