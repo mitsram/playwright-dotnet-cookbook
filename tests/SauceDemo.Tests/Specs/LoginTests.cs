@@ -1,8 +1,5 @@
 using System.Threading.Tasks;
 using FluentAssertions;
-using Microsoft.Playwright;
-using Microsoft.Playwright.NUnit;
-using Microsoft.VisualBasic;
 using NUnit.Framework;
 using SauceDemo.Tests.Pages;
 
