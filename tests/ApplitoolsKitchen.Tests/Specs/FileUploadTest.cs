@@ -14,7 +14,7 @@ public class FileUploadTest : BaseTest
     }
 
     [Test]
-    public async Task FileUpload_ValidFile_ReturnSuccessful()    
+    public async Task FileUpload_ValidFile_UploadSuccessful()    
     {
         var filePickerPage = Open<FilePickerPage>();
         var fileUploaded = await filePickerPage.UploadFile("full file path here ....");
