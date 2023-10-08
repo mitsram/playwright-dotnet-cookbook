@@ -36,6 +36,7 @@ public class BaseTest : PageTest
         // Register your page objects here
         services.AddTransient(page => Page);
         services.AddTransient<FilePickerPage>();
+        services.AddTransient<AlertPage>();
 
         return services.BuildServiceProvider();
     }

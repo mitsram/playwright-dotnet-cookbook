@@ -27,5 +27,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Update="Assets/dice.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>    
+  </ItemGroup>
 
 </Project>

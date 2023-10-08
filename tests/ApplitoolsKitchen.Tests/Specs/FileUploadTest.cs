@@ -13,11 +13,11 @@ public class FileUploadTest : BaseTest
         Page.GotoAsync(Configuration["BaseUrl"]! + "/ingredients/file-picker");
     }
 
-    [Test]
+    [Test]    
     public async Task FileUpload_ValidFile_UploadSuccessful()    
     {
         var filePickerPage = Open<FilePickerPage>();
-        var fileUploaded = await filePickerPage.UploadFile("full file path here ....");
+        var fileUploaded = await filePickerPage.UploadFile("Assets/dice.jpg");
 
         fileUploaded.Should().BeTrue();
     }
