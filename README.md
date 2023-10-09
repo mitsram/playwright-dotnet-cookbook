@@ -30,3 +30,6 @@ To run the tests, use the following command:
 ```bash
 dotnet test
 ```
+
+## Contributing
+Contributions are welcome! If you have a new example, bug fix, or improvement, please open an issue or create a pull request. Make sure to follow the existing coding style and conventions.
